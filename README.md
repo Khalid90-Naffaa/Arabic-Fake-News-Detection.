@@ -1,21 +1,19 @@
-# 📰 Arabic Fake News Detection
+# 📰 Arabic Fake News Detection Pipeline
 
-A Machine Learning project designed to classify Arabic news articles as real or fake using Natural Language Processing (NLP) techniques.
+This project implements a Machine Learning pipeline to detect and classify Arabic fake news using **Support Vector Machines (SVM)**.
 
-### 🚀 Overview
-The project focuses on processing Arabic text data and applying a classification model to identify misinformation, which is a critical task in social media and news analysis.
+### 🛠️ Technical Implementation
+The project uses a structured approach to process and classify Arabic text:
+* **Vectorization:** `TfidfVectorizer` to convert Arabic text into numerical features.
+* **Classifier:** `LinearSVC` (Support Vector Machine) for high-performance text classification.
+* **Pipeline:** Utilizes Scikit-learn's `Pipeline` to streamline the vectorization and training process.
 
-### 🛠️ Tech Stack
-* **Language:** Python
-* **ML Library:** Scikit-learn
-* **Data Handling:** Pandas & NumPy
-* **NLP:** Arabic text preprocessing and TF-IDF Vectorization
-* **Algorithm:** Support Vector Machine (SVM) / Random Forest
+### 🚀 Features
+* Automated preprocessing and feature extraction.
+* Optimized for Arabic text classification.
+* Clean and modular Python implementation in `ber.py`.
 
-### 📂 Repository Structure
-* `ber.py`: The main pipeline for data cleaning, feature extraction, and model training.
-
-### 📈 Key Features
-* Custom preprocessing for Arabic script (removing noise, stop words).
-* Text vectorization using TF-IDF.
-* High-accuracy classification for news datasets.
+### 💻 Requirements
+* Python 3.x
+* Scikit-learn
+* Pandas
